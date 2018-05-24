@@ -1,6 +1,6 @@
 ![Example-Logo](Coming soon.)
-# Ibp-Coin Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a Stone-Coin Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+# IBP-Coin Masternode Setup Guide (Ubuntu 16.04)
+This guide will assist you in setting up a IBP-Coin Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
 If you require further assistance contact the support team @ [Discord](https://discord.gg/uB6c7Q2)
 ***
