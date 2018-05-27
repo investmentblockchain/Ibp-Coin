@@ -1,4 +1,4 @@
-![Example-Logo](Coming soon.)
+![Example-Logo](https://i.imgur.com/cTTEYsQ.png)
 # IBP-Coin Masternode Setup Guide (Ubuntu 16.04)
 This guide will assist you in setting up a IBP-Coin Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
