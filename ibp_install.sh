@@ -3,8 +3,8 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='icpro.conf'
 CONFIGFOLDER='/root/.icprocore'
-COIN_DAEMON='icprod'
-COIN_CLI='icpro-cli'
+COIN_DAEMON='ibpd'
+COIN_CLI='ibp-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/investmentblockchain/IBP-Core'
 COIN_TGZ='https://github.com/Realbityoda/Ibp-Coin/releases/download/v.5.0.1.3/IBP.tar.gz'
@@ -28,7 +28,7 @@ MAG='\e[1;35m'
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
     #kill wallet daemon
-    sudo killall icprod > /dev/null 2>&1
+    sudo killall ibpd > /dev/null 2>&1
     #remove old ufw port allow
     sudo ufw delete allow 14010/tcp > /dev/null 2>&1
     #remove old files
@@ -36,7 +36,7 @@ purgeOldInstallation() {
         sudo rm -rf ~/.icpro > /dev/null 2>&1
     fi
     #remove binaries and IBP utilities
-    cd /usr/local/bin && sudo rm icpro-cli icpro-tx icprod > /dev/null 2>&1 && cd
+    cd /usr/local/bin && sudo rm ibp-cli ibp-tx ibpd > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
 }
 
