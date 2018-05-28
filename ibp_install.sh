@@ -1,8 +1,8 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='icpro.conf'
-CONFIGFOLDER='/root/.icprocore'
+CONFIG_FILE='ibp.conf'
+CONFIGFOLDER='/root/.ibpcore'
 COIN_DAEMON='ibpd'
 COIN_CLI='ibp-cli'
 COIN_PATH='/usr/local/bin/'
