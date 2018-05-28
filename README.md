@@ -192,9 +192,9 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`icpro-cli masternode status`
+`ibp-cli masternode status`
 
-`icpro-cli getinfo`
+`ibp-cli getinfo`
 
 *You should see ***status 9***
 
