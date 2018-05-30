@@ -7,7 +7,7 @@ COIN_DAEMON='ibpd'
 COIN_CLI='ibp-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/investmentblockchain/IBP-Core'
-COIN_TGZ='https://github.com/Realbityoda/Ibp-Coin/releases/download/v.5.0.1.3/IBP.tar.gz'
+COIN_TGZ='https://github.com/investmentblockchain/IBP-Core/releases/download/v.5.0.2.1/Masternode.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 SENTINEL_REPO='N/A'
 COIN_NAME='IBP'
@@ -18,7 +18,7 @@ NODEIP=$(curl -s4 icanhazip.com)
 
 BLUE="\033[0;34m"
 YELLOW="\033[0;33m"
-CYAN="\033[0;36m" 
+CYAN="\033[0;36m"
 PURPLE="\033[0;35m"
 RED='\033[0;31m'
 GREEN="\033[0;32m"
@@ -271,7 +271,7 @@ function important_information() {
  echo -e "${BLUE}================================================================================================================================${NC}"
  echo -e "${YELLOW}IBP: 43x9FGvdaauvFeESqsunifeMFZbfpoNEtM${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
- 
+
  }
 
 function setup_node() {
@@ -293,4 +293,3 @@ checks
 prepare_system
 download_node
 setup_node
-

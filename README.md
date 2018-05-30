@@ -18,7 +18,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * **Section E**: Connecting & Starting the masternode.
 ***
 
-## Section A: Creating the VPS within [Vultr](https://www.vultr.com/?ref=7296974) 
+## Section A: Creating the VPS within [Vultr](https://www.vultr.com/?ref=7296974)
 ***Step 1***
 * Register at [Vultr](https://www.vultr.com/?ref=7296974)
 ***
@@ -27,7 +27,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * After you have added funds to your account go [here](https://my.vultr.com/deploy/) to create your Server
 ***
 
-***Step 3*** 
+***Step 3***
 * Choose a server location (preferably somewhere close to you)
 ![Example-Location](https://i.imgur.com/ozi7Bkr.png)
 ***
@@ -38,11 +38,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 5***
-* Choose a server size: $5/mo will be fine 
+* Choose a server size: $5/mo will be fine
 ![Example-OS](https://i.imgur.com/UoGoHcM.png)
 ***
 
-***Step 6*** 
+***Step 6***
 * Set a Server Hostname & Label (name it whatever you want)
 ![Example-hostname](https://i.imgur.com/uu0rvOr.png)
 ***
@@ -54,14 +54,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 
-## Section B: Downloading and installing BitVise. 
+## Section B: Downloading and installing BitVise.
 
 ***Step 1***
 * Download Bitvise [here](https://dl.bitvise.com/BvSshClient-Inst.exe)
 ***
 
 ***Step 2***
-* Select the correct installer depending upon your operating system. Then follow the install instructions. 
+* Select the correct installer depending upon your operating system. Then follow the install instructions.
 
 ![Example-PuttyInstaller](https://i.imgur.com/yF3694G.png)
 ***
@@ -70,7 +70,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section C: Connecting to the VPS & Installing the MN script via Bitvise.
 
 ***Step 1***
-* Copy your VPS IP (you can find this by going to the server tab within Vultr and clicking on your server. 
+* Copy your VPS IP (you can find this by going to the server tab within Vultr and clicking on your server.
 ![Example-Vultr](https://i.imgur.com/z41MiwY.png)
 ***
 
@@ -89,12 +89,12 @@ If you require further assistance contact the support team @ [Discord](https://d
 ![Example-Root](https://i.imgur.com/11GMkvA.png)
 ***
 
-***Step 5*** 
+***Step 5***
 * Paste the password into the Bitvise terminal by right clicking (it will not show the password so just press enter)
 ![Example-RootPassEnter](https://i.imgur.com/zVhOAKu.png)
 ***
 
-***Step 6*** 
+***Step 6***
 * Once you have clicked open it will open a security alert (click yes).  
 ***
 
@@ -141,19 +141,19 @@ If you require further assistance contact the support team @ [Discord](https://d
 ***
 
 ***Step 3***
-* Create a text document to temporarily store information that you will need. 
+* Create a text document to temporarily store information that you will need.
 ***
 
 ***step 4***
-* Go to the console within the wallet 
+* Go to the console within the wallet
 
 ![Example-console](https://i.imgur.com/6NM7G9a.png)
 ***
 
 ***Step 5***
-* Type the command below and press enter 
+* Type the command below and press enter
 
-`masternode outputs` 
+`masternode outputs`
 
 ![Example-outputs](https://i.imgur.com/GD7Ro1m.png)
 ***
@@ -163,16 +163,16 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste these into the text document you created earlier as you will need them in the next step.
 ***
 
-# Section E: Connecting & Starting the masternode 
+# Section E: Connecting & Starting the masternode
 
 ***Step 1***
-* Go to the tools tab within the wallet and click open "masternode configuration file" 
+* Go to the tools tab within the wallet and click open "masternode configuration file"
 ![Example-create](https://i.imgur.com/COsfvfA.png)
 ***
 
 ***Step 2***
 
-* Fill in the form. 
+* Fill in the form.
 * For `Alias` type something like "MN01" **don't use spaces**
 * The `Address` is the IP and port of your server (this will be in the Bitvise terminal that you still have open).
 * The `PrivKey` is your masternode private key (This is also in the Bitvise terminal that you have open).
